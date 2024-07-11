@@ -1,0 +1,50 @@
+.cardsh {
+    width: 80%; /* Adjust the percentage as needed */
+    height: 30%; /* Adjust the percentage as needed */
+    max-width: 150px; /* Set a maximum width to prevent it from stretching too much */
+    max-height: 60px; /* Set a maximum height to prevent it from stretching too much */
+    margin: 2px;
+    padding: auto auto;
+  }
+  
+  
+  /* ProgressBarComponent.css */
+  
+  /* ProgressBarComponent.css */
+  
+  .circle {
+    width: 30px;
+    height: 30px;
+    background-color: #eee; /* Light color for incomplete steps */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #555;
+    border: 2px solid #ccc; /* Border color for incomplete steps */
+  }
+  
+  .circle.active {
+    background-color: #007bff; /* Blue for active step */
+    color: #fff;
+    border: 2px solid #007bff; /* Border color for active step */
+  }
+  
+  .circle.completed {
+    background-color: #28a745; /* Green for completed step */
+    color: #fff;
+    border: 2px solid #28a745; /* Border color for completed step */
+  }
+  
+  .progress-bar {
+    background-color: #ccc; /* Light color for incomplete steps */
+  }
+  
+  .row .circle:not(.active):not(.completed) {
+    background-color: #eee; /* Light color for incomplete steps */
+    color: #555;
+    border: 2px solid #ccc; /* Border color for incomplete steps */
+  }
+  
+  /* Adjust the colors as needed */

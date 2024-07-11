@@ -1,0 +1,14 @@
+.footer-title {
+    border-left: 5px #dc4535 solid;
+    padding-left: 10px;
+  }
+  @media screen and (max-width: 768px) {
+    ul,
+    li {
+      text-align: center;
+    }
+  }
+  .active {
+    background-color: rgb(64, 226, 191) !important;
+    border: none !important;
+  }

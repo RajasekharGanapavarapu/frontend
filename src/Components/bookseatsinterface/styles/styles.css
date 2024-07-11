@@ -1,0 +1,10 @@
+/* Add this CSS to your stylesheets or style tag in your component */
+
+.card-container {
+    display: flex;
+  }
+
+.btn:hover {
+  transform: rotateX('50');
+}
+  
